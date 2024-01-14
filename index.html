@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icons8-fortnite-lama-48.png" type="image/x-icon">
+    <title>Lama-Cheat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="icons8-fortnite-lama-48.png" alt="logo">
+        </div>
+        <div class="navbar">
+            <div class="item">
+                <li><a href="#" onclick="telechargerFichier()">Télécharger</a></li>
+            </div>
+            <script>
+                function telechargerFichier() {
+                    
+                    const nomFichier = "Lama2.0.exe";
+        
+                    const lienTelechargement = document.createElement("a");
+                    lienTelechargement.href = nomFichier;
+                    lienTelechargement.download = nomFichier;
+        
+                    document.body.appendChild(lienTelechargement);
+                    lienTelechargement.click();
+                    document.body.removeChild(lienTelechargement);
+                }
+            </script>
+            <div class="item">
+                <li><a href="https://discord.gg/yCfrYUDE6h">Discord</a></li>
+            </div>
+            <div class="item">
+                <li><a href="#faq">FAQ</a></li>
+            </div>
+        </div>
+    </header>
+    
+
+    <h1>Bienvenue chez Lama-Cheat ©</h1>
+    <h2>Chez Lama-Cheat, nous sommes passionnés par l'univers Fortnite et nous comprenons que parfois, vous avez besoin d'un coup de pouce pour atteindre de nouveaux sommets dans le jeu. C'est pourquoi nous avons créé une gamme exclusive de triches et d'astuces pour vous aider à dominer le champ de bataille.</h2>
+
+    <div class="image1">
+        <img src="FortniteAimbot.webp" alt="image1" id="movingImage" style="border-radius: 20px; width: 50%; height: auto;">
+    </div>
+    <h3>Internal cheat (Gratuit) Indétéctable</h3>
+    <h4>Téléchargez le directement via le bouton ci-dessous, désactivez votre antivirus, lancez Fortnite puis éxécutez le cheat.</h4>
+    <h5>Utilisez un compte secondaire (conseillé) puis vous pourrez paramètrer votre Cheat directement dans le jeu. Fonctionne dans tous les modes de jeux.</h5>
+    <h6>Si lors du téléchargement un message d'erreur apparaît, signifiant qu'un potentiel virus ou logiciel malveillant a été trouvé, aucune crainte le fichier est 100% sur, seulement du script va etre injecté dans Fortnite pour avoir un Aimbot, un Wallhack et d'autres fonctionnalités.</h6>
+        <button1 class="shadow__btn" onclick="telechargerFichier()">Télécharger</button1>
+    <script>
+        function telechargerFichier() {
+            const nomFichier = "Lama2.0.exe";
+
+            const lienTelechargement = document.createElement("a");
+            lienTelechargement.href = nomFichier;
+            lienTelechargement.download = nomFichier;
+
+            document.body.appendChild(lienTelechargement);
+            lienTelechargement.click();
+            document.body.removeChild(lienTelechargement);
+        }
+    </script>
+
+    <div class="titrefaq" id="faq">Questions et Réponses</div>
+
+    <div id="faq" class="faq-container">
+        <div class="faq-item">
+            <button class="faq-question">Le Cheat est il Indétéctable ?</button>
+            <div class="faq-answer">
+                Nous pouvons vous assurer que ce que nous vous proposons est totalement Indétéctable par Easy Anti-Cheat de Fortnite.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Quels sont les modes de jeu pris en charge par le cheat ?</button>
+            <div class="faq-answer">
+                Notre cheat fonctionne dans tous les modes de jeu de Fortnite. Que vous jouiez en solo, en duo, en section ou dans d'autres modes, le cheat est adapté pour améliorer votre expérience de jeu.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Le cheat est-il compatible avec toutes les versions de Fortnite et les mises à jour du jeu ?</button>
+            <div class="faq-answer">
+                Nous nous efforçons de maintenir la compatibilité avec les dernières versions de Fortnite. Cependant, il peut y avoir des délais après une mise à jour du jeu avant que le cheat soit entièrement compatible. Consultez notre site Web pour les mises à jour et les annonces liées à la compatibilité.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Comment puis-je configurer les fonctionnalités du cheat une fois qu'il est installé ?</button>
+            <div class="faq-answer">
+                Une fois le cheat lancé, vous pourrez généralement configurer ses fonctionnalités directement dans le jeu. Utilisez les options fournies pour personnaliser votre expérience de triche selon vos préférences.
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+
+            faqQuestions.forEach(function (faqQuestion) {
+                faqQuestion.addEventListener('click', function () {
+                    faqQuestion.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+    <iframe src="https://discord.com/widget?id=1138025901737652224&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
+    
+    
+
+    <script>
+        function redirectToMobile() {
+            if (window.innerWidth < 780) {
+                window.location.href = "Mobile.html";
+            }
+        }
+        window.addEventListener('load', redirectToMobile);
+
+        window.addEventListener('resize', redirectToMobile);
+    </script>
+</body>
+</html>
